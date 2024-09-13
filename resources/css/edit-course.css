@@ -1,0 +1,139 @@
+.course-details{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.course-details .course-image{
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+.course-details .course-image img{
+    border-radius: 50%;
+    height: 200px;
+}    
+
+.course-details .course-info{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-info form{
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.course-info form .input-group{
+    margin: 10px;
+}
+
+.course-details form label{
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.course-details form input, input[type="file"]{
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.course-details form textarea{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+
+/* lessons section */
+
+.lessons-section{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.lessons-section .add-lesson{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessons-section .add-lesson form{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessons-section .add-lesson form .input-group{
+    margin: 10px;
+}
+
+.lessons-section .add-lesson form label{
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.lessons-section .add-lesson form input, input[type="file"]{
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.lessons-section .add-lesson form textarea{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.lessons-section .add-lesson form button{
+    margin: 10px;
+}
+
+.lessons-section .added-lessons{
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lessons-section .added-lessons .table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.lessons-section .added-lessons .table th, td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.lessons-section .added-lessons .table tr td form{
+    display: inline-block;
+}
+
+.lessons-section .added-lessons .table th{
+    background-color: #004b49;
+    color: #fff;
+}

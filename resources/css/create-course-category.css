@@ -1,0 +1,111 @@
+.create-course-category{
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #333;
+}
+
+.create-course-category h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-course-category form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-course-category form input,textarea{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.create-course-category form button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.current-categories{
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.current-categories h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.current-categories-count{
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    background-color: #fff;
+}
+
+.current-categories-count h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* media for create-course-category style page*/
+
+@media screen and (max-width: 768px){
+    .create-course-category{
+        width: 80%;
+    }
+
+    .create-course-category form input,textarea{
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    .create-course-category form button{
+        padding: 5px;
+    }
+
+    .create-course-category h2{
+        font-size: 1.5rem;
+    }
+
+    .create-course-category form button{
+        font-size: 1rem;
+    }
+
+    .create-course-category form input,textarea{
+        font-size: 1rem;
+    }
+
+    .create-course-category form input[type="file"]{
+        font-size: 1rem;
+    }
+
+    .create-course-category form select{
+        font-size: 1rem;
+    }
+
+    .current-categories{
+        width: 80%;
+    }
+
+    .current-categories-count{
+        width: 90%;
+    }
+
+    .current-categories h4{
+        font-size: 1.5rem;
+    }
+
+    .current-categories-count h5{
+        font-size: 1.5rem;
+    }
+    
+}

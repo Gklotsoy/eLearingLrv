@@ -1,0 +1,65 @@
+
+.content{
+    padding: 20px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h2,h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.update-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.upgrated-user p{
+    margin-bottom: 20px;
+}
+
+.acceptance-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acceptance-actions form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.acceptance-actions form input{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.hidden{
+    display: none;
+}
+
+.upgrade-form{
+    text-align: center;
+}
+

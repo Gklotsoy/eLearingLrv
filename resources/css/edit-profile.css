@@ -1,0 +1,304 @@
+.content{
+    padding: 20px;
+   
+}
+
+.profile-info{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.profile-info h2{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.profile-info .user-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-info .user-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-info .user-img img:hover{
+    animation: fa-spin 1s;
+    cursor: pointer;
+}
+
+.form-user-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.form-user-info label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.form-user-info input{
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.user-actions{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.user-actions button{
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-delete{
+    background-color: #36454f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.modal-delete .delete-account p{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0;
+    
+}
+
+
+.modal-delete .delete-account{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-delete .delete-account .delete-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.modal-delete .delete-account .delete-form input{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.change-password-modal{
+    background-color: #36454f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.change-password-modal label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.change-password-modal button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    
+}
+
+.modal-picture-update{
+    background-color: #36454f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0;
+    text-align: center;
+    width: 30%;
+    height: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.modal-picture-update label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.modal-picture-update .update-picture{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-picture-update .update-picture input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    
+}
+
+
+.modal-picture-update .update-picture button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    
+}
+
+.change-image-guide p{
+    text-align: center;
+    background-color: #4b9d9a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+/* media for edit-profile page */
+
+@media screen and (max-width: 768px){
+    .form-user-info{
+        width: 80%;
+    }
+
+    .user-actions{
+        flex-direction: column;
+    }
+
+    .user-actions button{
+        margin: 10px 0;
+    }
+
+    .modal-delete{
+        margin: 10px 0;
+        width: 80%;
+        height: auto;
+    }
+
+    .modal-delete .delete-account{
+        margin: 10px 0;
+    }
+
+    .modal-delete .delete-account .delete-form input{
+        margin: 10px 0;
+    }
+
+    .modal-delete .delete-account .delete-form button{
+        margin: 10px 0;
+    }
+
+
+    .modal-delete .delete-account .delete-form button{
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .change-password-modal{
+        margin: 10px 0;
+        width: 80%;
+        height: auto;
+    }
+
+    .change-password-modal label{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .change-password-modal button{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px;
+        margin: 10px 0;
+        
+    }
+
+    .modal-picture-update{
+        margin: 10px 0;
+        width: 80%;
+        height: auto;
+    }
+
+    .modal-picture-update label{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .modal-picture-update .update-picture{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .modal-picture-update .update-picture input{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px;
+        margin: 10px 0;
+        
+    }
+
+
+}

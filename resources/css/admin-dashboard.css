@@ -1,0 +1,138 @@
+
+.content{
+    padding: 10px ;
+
+}
+
+.filtering {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filtering input,select{
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table thead th{
+    background-color: #004b49;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.table tbody td form{
+    display: inline-block;
+}
+
+.status-public {
+    color: green;
+    background-color: green;
+    font-weight: bold;
+}
+
+.status-private {
+    color: red;
+    font-weight: bold;
+}
+
+.status-draft {
+    color: orange;
+    font-weight: bold;
+}
+/* media for admin-dashboard */
+
+@media screen and (max-width: 768px){
+    .filtering{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .filtering input,select{
+        margin: 10px 0;
+        width: 100%;
+
+    }
+
+    .filtering button{
+        margin: 10px 0;
+    }
+
+    .table{
+        display: block;
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .table thead{
+        display: none;
+    }
+
+    .table td{
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+        text-align: center;
+        width: 100%;
+    }
+
+    .table tbody td form{
+        display: inline-block;
+    }
+    .users-dashboard .table td{
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+        text-align: left;
+        width: 100%;
+    }
+
+    .table td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .users-dashboard .table td:last-child{
+        border-bottom: none;
+    }
+
+    .users-dashboard .table td:nth-child(1)::before{
+        content: 'ID';
+    }
+
+    .users-dashboard .table td:nth-child(2)::before{
+        content: 'Name';
+    }
+
+    .users-dashboard .table td:nth-child(3)::before{
+        content: 'Email';
+    }
+
+    .users-dashboard .table td:nth-child(4)::before{
+        content: 'Role';
+    }
+
+    .users-dashboard .table td:nth-child(5)::before{
+        content: 'Enrollments';
+    }
+
+    .users-dashboard .table td:nth-child(6)::before{
+        content: 'Courses';
+    }
+
+    .users-dashboard .table td:nth-child(7)::before{
+        content: 'Actions';
+    }
+
+}
+

@@ -1,0 +1,87 @@
+.content{
+    padding: 10px ;
+    
+}
+
+.course-category{
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #333;
+}
+
+.course-category-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-category-header h3{
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+
+.course-category-header .cateogory-image{
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
+}
+
+.course-category-header .cateogory-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.course-category-body form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.course-category-body form p{
+    margin: 10px 0;
+    color: red;
+}
+
+.course-category-body form label{
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.course-category-body form input,textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    max-height: 150px;
+}
+
+.course-category-body form input[type="file"]{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    max-height: 150px;
+}
+
+.course-category-body form input:hover{
+    cursor: pointer;
+}
+
+.course-category-body form button{
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* media for course-category-edit page*/
+
+@media screen and (max-width: 768px){
+    .course-category{
+        max-width: 100%;
+    }
+}

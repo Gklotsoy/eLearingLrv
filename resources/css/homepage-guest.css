@@ -1,0 +1,80 @@
+/* .user-profile { */
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.content .about{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content .about h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content .about p{
+    text-align: justify;
+}
+
+.content .register{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content .register h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content .register form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .register form input{
+    /* border: #000000; */
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content .register form button{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+/* Media for guest page */
+
+@media screen and (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+
+    .content .about{
+        width: 90%;
+    }
+
+    .content .register{
+        width: 90%;
+    }
+}
+/* } */

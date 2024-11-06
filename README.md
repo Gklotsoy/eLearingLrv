@@ -6,7 +6,7 @@ This is an eLearning platform built with Laravel and Vite.js.
 
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Building Frontend Assets & Running the Application](#building-frontend-assets&running-the-application)
+- [Building Frontend Assets and Running the Application](#building-frontend-assets-and-running-the-application)
 
 ## Installation
 
@@ -53,7 +53,7 @@ This is an eLearning platform built with Laravel and Vite.js.
 
     php artisan serve
 
-## Building Frontend Assets & Running the Application
+## Building Frontend Assets and Running the Application
 
 1. In a teminal run:
     

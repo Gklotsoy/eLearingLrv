@@ -6,7 +6,7 @@ This is an eLearning platform built with Laravel and Vite.js.
 
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Building Frontend Assets & Running the Application](#building-frontend-assets-&-running-the-application)
+- [Building Frontend Assets & Running the Application](#building-frontend-assets&running-the-application)
 
 ## Installation
 

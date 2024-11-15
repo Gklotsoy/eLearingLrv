@@ -50,7 +50,7 @@ This is an eLearning platform built with Laravel and Vite.js.
     php artisan key:generate
 
 4. **Run database migrations**:
-
+    php artisan migrate
     php artisan serve
 
 ## Building Frontend Assets and Running the Application

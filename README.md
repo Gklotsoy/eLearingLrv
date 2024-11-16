@@ -51,7 +51,9 @@ This is an eLearning platform built with Laravel and Vite.js.
 
 4. **Run database migrations**:
     php artisan migrate
-    php artisan serve
+
+5. **Link storage:
+   php artisan storage:link
 
 ## Building Frontend Assets and Running the Application
 

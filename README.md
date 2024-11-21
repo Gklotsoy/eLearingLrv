@@ -63,7 +63,7 @@ This is an eLearning platform built with Laravel and Vite.js.
 
 2. In a second terminal tun:
 
-    nmp run dev 
+    npm run dev 
 
 3. Visit the application in your browser:
 

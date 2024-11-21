@@ -45,14 +45,16 @@ This is an eLearning platform built with Laravel and Vite.js.
     SESSION_DRIVER=database
     SESSION_LIFETIME=120
 
-3. **Generate an application key**:
+    MAX_UPLOAD_SIZE=51200
+   
+4. **Generate an application key**:
 
     php artisan key:generate
 
-4. **Run database migrations**:
+5. **Run database migrations**:
     php artisan migrate
 
-5. **Link storage:
+6. **Link storage:
    php artisan storage:link
 
 ## Building Frontend Assets and Running the Application

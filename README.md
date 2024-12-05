@@ -26,6 +26,7 @@ This is an eLearning platform built with Laravel and Vite.js.
     cp .env.example .env
 
 2. **Update the .env file with your environment settings**:
+    ```
 
     APP_NAME=Laravel
     APP_ENV=local
@@ -46,6 +47,7 @@ This is an eLearning platform built with Laravel and Vite.js.
     SESSION_LIFETIME=120
 
     MAX_UPLOAD_SIZE=51200
+    ```
    
 4. **Generate an application key**:
 

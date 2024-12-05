@@ -54,20 +54,22 @@ This is an eLearning platform built with Laravel and Vite.js.
     php artisan key:generate
 
 5. **Run database migrations**:
-    php artisan migrate
-
-6. **Link storage:
+    ```
+   php artisan migrate
+    ```
+7. **Link storage:
    php artisan storage:link
 
 ## Building Frontend Assets and Running the Application
 
 1. In a teminal run:
-    
+    ```
     php artisan serve
-
+    ```
 2. In a second terminal tun:
-
+    ```
     npm run dev 
+    ```
 
 3. Visit the application in your browser:
 
